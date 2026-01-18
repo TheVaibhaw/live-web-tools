@@ -1,18 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
         xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 
-    <!-- Homepage -->
+    <!-- Main Tools Page -->
     <url>
         <loc>https://live-web-tools.vaibhawkumarparashar.in/</loc>
         <lastmod>2026-01-18</lastmod>
         <changefreq>weekly</changefreq>
         <priority>1.0</priority>
+        <image:image>
+            <image:loc>https://vaibhawkumarparashar.in/og-image.png</image:loc>
+            <image:title>V7 Web Tools - Free Developer Tools</image:title>
+            <image:caption>Professional developer tools including SQL Viewer, Image Converter, and more</image:caption>
+        </image:image>
     </url>
 
-    <!-- Tool Pages (External Links for Reference) -->
     <!-- V7 SQL Viewer -->
     <url>
         <loc>https://v7-sql-viewer.vaibhawkumarparashar.in/</loc>
@@ -43,6 +48,22 @@
         <lastmod>2026-01-18</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.8</priority>
+    </url>
+
+    <!-- Main Portfolio -->
+    <url>
+        <loc>https://vaibhawkumarparashar.in/</loc>
+        <lastmod>2026-01-18</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.7</priority>
+    </url>
+
+    <!-- Tools Page on Main Site -->
+    <url>
+        <loc>https://vaibhawkumarparashar.in/tools/</loc>
+        <lastmod>2026-01-18</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.7</priority>
     </url>
 
 </urlset>

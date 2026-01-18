@@ -1,14 +1,22 @@
 {
     "name": "V7 Web Tools - Free Developer Tools",
     "short_name": "V7 Tools",
-    "description": "Complete suite of professional free tools: SQL Viewer, Image Converter, Image Cropper, PDF Generator, Menu Finder, and School Management System.",
+    "description": "Complete suite of 6 professional free tools: SQL Viewer, Image Converter, Image Cropper, PDF Generator, Menu Finder, and School Management System. 100% private, browser-based solutions.",
     "start_url": "/",
+    "scope": "/",
     "display": "standalone",
     "background_color": "#0a0a0f",
     "theme_color": "#667eea",
     "orientation": "any",
-    "scope": "/",
     "lang": "en-US",
+    "dir": "ltr",
+    "categories": [
+        "developer tools",
+        "utilities",
+        "productivity",
+        "business"
+    ],
+    "prefer_related_applications": false,
     "icons": [
         {
             "src": "https://vaibhawkumarparashar.in/favicon-16x16.png",
@@ -23,7 +31,8 @@
         {
             "src": "https://vaibhawkumarparashar.in/apple-touch-icon.png",
             "sizes": "180x180",
-            "type": "image/png"
+            "type": "image/png",
+            "purpose": "apple touch icon"
         },
         {
             "src": "https://vaibhawkumarparashar.in/android-chrome-192x192.png",
@@ -38,6 +47,32 @@
             "purpose": "any maskable"
         }
     ],
-    "categories": ["developer tools", "utilities", "productivity"],
-    "prefer_related_applications": false
+    "shortcuts": [
+        {
+            "name": "SQL Viewer",
+            "short_name": "SQL",
+            "description": "Open V7 SQL Viewer",
+            "url": "https://v7-sql-viewer.vaibhawkumarparashar.in",
+            "icons": [
+                {
+                    "src": "https://vaibhawkumarparashar.in/favicon-32x32.png",
+                    "sizes": "32x32"
+                }
+            ]
+        },
+        {
+            "name": "Image Converter",
+            "short_name": "Images",
+            "description": "Open V7 Image Converter",
+            "url": "https://tools.vaibhawkumarparashar.in",
+            "icons": [
+                {
+                    "src": "https://vaibhawkumarparashar.in/favicon-32x32.png",
+                    "sizes": "32x32"
+                }
+            ]
+        }
+    ],
+    "related_applications": [],
+    "screenshots": []
 }
