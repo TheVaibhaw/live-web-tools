@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://thevaibhaw.github.io/live-web-tools/sitemap.xml
